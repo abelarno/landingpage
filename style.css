@@ -9,7 +9,7 @@ body{
     margin:0; 
 }
 
-header{
+header, footer{
     background-color: #1f2937;
 }
 
@@ -34,6 +34,12 @@ h2{
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    font-weight: bolder;
     padding: 0;
     margin: 0;
 }
@@ -92,6 +98,17 @@ button{
     font-weight: bolder;
 }
 
+.cta button{
+    background-color: #3882f6;
+    color:white;
+    padding:12px 48px;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 2px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
 .content{
     display: flex;
     justify-content: center;
@@ -120,4 +137,57 @@ button{
     border-radius: 25px;
     border-width: 3px;
     margin-bottom: 12px;
+}
+
+
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 94px 0;
+}
+
+.quotetext{
+    width: 60%;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quotename{
+    width: 60%;
+    text-align: right;
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: bold;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0;
+}
+
+.ctabox{
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 15px;
+    width:70%;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    padding: 38px;
+    gap:52px;
+}
+
+
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 48px;
 }
