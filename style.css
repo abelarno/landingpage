@@ -1,0 +1,56 @@
+html{
+    font-family: sans-serif;
+    padding:0;
+    margin:0;
+}
+
+body{
+    padding:0;
+    margin:0; 
+}
+
+header{
+    background-color: #1f2937;
+}
+
+.headercontent{
+    width:80%;
+    margin: 0 auto;
+}
+
+nav{
+    padding-top:25px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0;
+    padding-top:25px;
+    gap: 25px;
+    padding:0;
+}
+
+header li{
+    color:white;
+}
+
+.logo{
+    flex:1;
+    font-size:24px;
+    color:#f9FAf8;
+    font-weight: bold;
+}
+
+
+.hero{
+
+}
